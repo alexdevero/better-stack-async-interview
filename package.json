@@ -1,7 +1,7 @@
 {
-  "name": "better-stack-code-interview",
+  "name": "better-stack-async-interview",
   "version": "0.0.1",
-  "description": "FE code interview for Better Stack",
+  "description": "FE async interview for Better Stack",
   "private": true,
   "author": {
     "name": "Alex Devero",
