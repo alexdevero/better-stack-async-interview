@@ -8,7 +8,7 @@ FE async interview for Better Stack.
 yarn
 
 # or
-npm
+npm i
 ```
 
 ## Usage
