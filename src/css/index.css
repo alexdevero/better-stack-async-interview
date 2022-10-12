@@ -1,0 +1,156 @@
+html,
+body,
+body > main {
+  min-height: 100vh;
+}
+
+body {
+  color: var(--color-black);
+  background-color: #fafafa;
+}
+
+header {
+  padding-top: 41px;
+}
+
+header .wallmine-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.header-divider {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #eaebf1;
+}
+
+.wallmine-logo {
+  width: 100%;
+  max-width: 152px;
+}
+
+.btn-primary {
+  padding: 8px 16px;
+  background-color: var(--color-blue);
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.status-page-status-icon-wrapper {
+  margin-top: 120px;
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-page-status-icon {
+  font-size: 83px;
+}
+
+.status-date-info {
+  color: #9ea1ae;
+  margin-bottom: 48px;
+}
+
+.color-grey {
+  color: var(--color-grey);
+}
+
+.color-grey-light {
+  color: var(--color-grey-light);
+}
+
+.color-green {
+  color: var(--color-green);
+}
+
+.color-orange {
+  color: var(--color-orange);
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.status-page-heading {
+  margin-bottom: 24px;
+}
+
+.status-chart {
+  padding: 20px 26px 25px;
+}
+
+.status-table {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 11%);
+}
+
+.table-status + .table-status {
+  border-top: 2px solid #ecedef;
+}
+
+.status-header {
+  padding: 30px 26px 0;
+}
+
+.status-table-header {
+  padding: 30px 26px 25px;
+  background-color: #fafafc;
+}
+
+.status-bar {
+  width: 9px;
+  height: 51px;
+  border-radius: 8px;
+}
+
+.status-bar + .status-bar {
+  margin-left: 2px;
+}
+
+.status-green {
+  background-color: var(--color-green);
+}
+
+.status-red {
+  background-color: var(--color-red);
+}
+
+.status-orange {
+  background-color: var(--color-orange);
+}
+
+.quick-actions li + li {
+  margin-left: 32px;
+}
+
+.status-name-icon {
+  margin-right: 12px;
+  display: inline-block;
+}
+
+.status-name-info-icon-wrapper {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #b1b9c0;
+  margin-left: 8px;
+}
+
+.status-name-info-icon {
+  font-size: 8px;
+  color: #b1b9c0;
+}
+
+footer {
+  padding-top: 42px;
+  padding-bottom: 64px;
+  font-size: 12px;
+}
